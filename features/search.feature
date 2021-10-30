@@ -10,10 +10,10 @@ Feature: Search Functionality
     Then Product details is displayed
 
     Example:
-    |    SearchedItem       |       Price           |         Color         |      Condition      |     ProductSKU      |
-    |     Television        |  $1250 - $1499.99     |         Black         |      Open-Box       |      6453324        |
-    |     Phone             |   $750 - $999.99      |         Blue          |     Refurbished     |      6443180        |
-    |     Watch             |   $500 - $749.99      |         Gold          |         New         |      6339663        |
+    | SearchedItem | Price            | Color | Condition   | ProductSKU |
+    | Television   | $1250 - $1499.99 | Black | Open-Box    | 6453324    |
+    | Phone        | $750 - $999.99   | Blue  | Refurbished | 6443180    |
+    | Watch        | $500 - $749.99   | Gold  | New         | 6339663    |
 
 
 

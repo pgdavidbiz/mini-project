@@ -10,7 +10,7 @@ import ProductPage from "../pageobjects/product.page";
 }); */
 
 Then(/^Product details is displayed$/, async(ProductSKU) =>{
-    await expect(ProductPage.pageUrl).toHaveUrlContaining(`skuId=${ProductSKU}`)
-
+    expect(ProductPage.pageUrl).toHaveUrlContaining(`skuId=${ProductSKU}`)
+    
 });
 

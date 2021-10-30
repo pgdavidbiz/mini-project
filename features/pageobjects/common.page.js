@@ -1,6 +1,6 @@
 class CommonPage{
-    openHomePage() {
-        browser.url('https://bestbuy.com')
+  async openHomePage() {
+      await browser.url('https://bestbuy.com')
     }
 
 }
